@@ -1,0 +1,114 @@
+*, *::before, *::after{
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+	font-family: Arial, sans-serif;
+}
+
+body{
+	padding: 20px;
+}
+
+header h1{
+	text-align: center;
+	color: #673ab7;
+}
+
+nav{
+	margin: 10px auto;
+	background-color: #673ab7;
+	width: 90%;
+	border-radius: 10px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li{
+	color: white;
+	display: inline;
+	margin: 10px 25px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+main{
+	float: left;
+	width: 80%;
+}
+
+article{
+	margin: 10px;
+	padding: 5px;
+}
+
+article::after{
+	font-size: 0.8rem;
+	content: 'Seguir leyendo';
+	display: inline-block;
+	width: auto;
+	text-align: center;
+	color: #673ab7;
+	font-weight: bold;
+	margin: 5px;
+}
+
+article:hover::after{
+	cursor: pointer;
+}
+
+article h2{
+	color: #9c27b0;
+}
+
+article p{
+	margin: 5px;
+	padding: 5px 5px 5px 0;
+	border-top: 3px solid #9c27b0;
+	text-align: justify;
+}
+
+aside ul{
+	list-style: none;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+aside ul li{
+	min-height: 50px;
+	min-width: 100px;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	line-height: 50px;
+}
+
+aside ul li:nth-child(1n){
+	background: #03a9f4;
+}
+
+aside ul li:nth-child(2n){
+	background: #ff9800;
+}
+
+aside ul li:nth-child(3n){
+	background: #e91e63;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	color: #9c27b0;
+	border-top: 2px solid #673ab7;
+	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+}

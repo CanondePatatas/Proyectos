@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario con todos los tipos de input</h1>
+    <form>
+        <div>
+            <label for="nombre">Nombre:</label> 
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce Nombre">
+        </div>
+
+        <div>
+            <label for="contraseña">Contraseña:</label> 
+            <input type="password" name="contraseña" id="contraseña" placeholder="Introduce Contraseña">
+        </div>
+
+        <div>
+            <label for="edad">Edad:</label> 
+            <input type="number" name="edad" id="edad" placeholder="Introduce Edad">
+        </div>
+        <div>
+            <label for="correo">Correo electrónico:</label> 
+            <input type="email" name="correo" id="correo" placeholder="Example@gmail.com">
+        </div>
+
+        <div>
+            <label for="telefono">Telefono:</label> 
+            <input type="tel" name="telefono" id="telefono" placeholder="967 679 679">
+        </div>
+
+        <div>
+            <label for="sitio">Sitio web:</label> 
+            <input type="url" name="sitio" id="sitio" placeholder="https://www.ejemplo.com">
+        </div>
+
+        <div>
+            <label for="fecha">Fecha:</label> 
+            <input type="date" name="fecha" id="fecha">
+        </div>
+
+        <div>
+            <label for="hora">Hora:</label> 
+            <input type="time" name="hora" id="hora">
+        </div>
+
+        <div>
+            <label for="color">color:</label> 
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+            <label for="satisfaccion">Nivel de satisfacción(1.10):</label> 
+            <input type="range" name="satisfaccion" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="fechahora">Fecha y hora:</label> 
+            <input type="datetime-local" name="fechahora" id="fechahora">
+        </div>
+
+        <div>
+            <label for="mes">Mes y Año:</label> 
+            <input type="month" name="mesaño" id="mesaño">
+        </div>
+
+        <div>
+            <label for="Semana">Semana:</label> 
+            <input type="week" name="Semana" id="Semana">
+        </div>
+
+        <div>
+            <label for="Actualizaciones">Desea recibir actualizaciones</label>
+            <input type="checkbox" name="Actualizaciones" id="Actualizaciones">
+        </div>
+
+        <div>
+            <label for="sexo">Sexo:</label><br> 
+            <input type="radio" name="sexo" value="Hombre" id="Hombre">
+            <label for="Hombre">Hombre</label><br>
+            <input type="radio" name="sexo" value="Mujer" id="Mujer">
+            <label for="Mujer">Mujer</label><br>
+            <input type="radio" name="sexo" value="Otro" id="Otro">
+            <label for="Otro">Otro</label><br>
+        </div>
+
+        <div>
+            <label for="Archivo">Subir archivo:</label>
+            <input type="file" name="Archivo" id="Archivo">
+        </div>
+
+        <div>
+            <button type="submit">Enviar</button> 
+            <button type="reset">Restablecer</button>
+        </div>
+    </form>
+<footer>Autor: Samuel Canela</footer>
+</body>
+</html>

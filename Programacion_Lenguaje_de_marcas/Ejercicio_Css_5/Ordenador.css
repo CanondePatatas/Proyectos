@@ -1,0 +1,54 @@
+body{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: orange;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+
+nav ul{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid orange;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid red;
+    text-align: center;
+}
+
+img{
+    padding: auto;
+    margin: auto;
+    border: 10px solid purple;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+
+h3{
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid blue;
+}
+
+ul{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    background-color: yellow;
+}

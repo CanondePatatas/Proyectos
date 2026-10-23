@@ -1,0 +1,68 @@
+body {
+    background-image: url(fondos-de-recetas.jpg);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    border: 10px solid lightslategray;
+    text-align: center;
+    color: lightslategray;
+    background-color: white;
+}
+
+.Ingredientes {
+    border: 5px solid lightslategray;
+    text-align: center;
+    color: lightslategray;
+    background-color: white;
+}
+
+.Elaboracion {
+    text-align: left;
+    color: lightslategray;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ img {
+    width: 500px;
+    height: auto;
+    border-radius: 25px;
+    border: 4px solid lightslategray;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+    border: 5px solid lightslategray;
+    background-color: white;
+}
+
+
+th, td {
+    border: 5px solid lightslategray;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+div {
+    list-style-type: none;
+    padding: 0;
+    border: 5px solid lightslategray;
+    background-color: white;
+}
+
+button {
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}

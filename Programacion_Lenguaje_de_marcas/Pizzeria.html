@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Formulario</title>
+</head>
+<body>
+    <h1 align="center">Pedido de Pizzas</h1>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Pizza</legend>
+            <label for="ingredientes">
+                Ingredientes <br> 
+                <input type="checkbox" name="Queso" id="Queso">Queso <br>
+                <input type="checkbox" name="Pimiento" id="Pimiento">Pimiento <br>
+                <input type="checkbox" name="Cebolla" id="Cebolla">Cebolla <br>
+            </label>
+            <br>
+            <label for="Tamaño">
+                Tamaño <br>
+                <input type="radio" name="Tamaño" id="Pequeña">Pequeña <br>
+                <input type="radio" name="Tamaño" id="Mediana">Mediana <br>
+                <input type="radio" name="Tamaño" id="Grande">Grande <br>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre"><br>
+            <label for="Direccion">Dirección</label>
+            <input type="text" name="Direccion" id="Direccion"><br>
+            <label for="Telefono">Teléfono</label>
+            <input type="text" name="Telefono" id="Telefono"><br>
+            <label for="Instrucciones">Instrucciones especiales</label><br>
+            <textarea name="Instrucciones" id="Instrucciones" cols="60" rows="20"></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Metodo de pago</legend>
+            <select name="Efectivo">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+                <option value="Bizum">Bizum</option>
+            </select>
+        </fieldset>
+        <div>
+            <input type="submit" value="Ok">
+        </div>
+    </form>
+</body>
+</html>
